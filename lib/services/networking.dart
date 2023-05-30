@@ -2,9 +2,10 @@ import 'package:http/http.dart';
 import 'dart:convert';
 
 class NetworkHelper {
-  NetworkHelper(this.url);
 
   final String url;
+
+  NetworkHelper(this.url);
 
   //api로 받아온 데이터
   Future getData() async {
